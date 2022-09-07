@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    char input;
+    scanf("%c",&input);
+
+    if((input>='A'&&input<='Z')||(input>='a'&&input<='z'))
+        printf("Alphabate");
+    else if(input>='0'&&input<='9')
+        printf("Digit");
+    else
+        printf("special charecter");
+
+    return 0;
+}
